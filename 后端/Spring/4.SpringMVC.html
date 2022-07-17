@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>4.SpringMVC</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.a74f58ad.css" as="style"><link rel="preload" href="/assets/js/app.987a30c5.js" as="script"><link rel="preload" href="/assets/js/2.a0182257.js" as="script"><link rel="preload" href="/assets/js/20.5d493483.js" as="script"><link rel="prefetch" href="/assets/js/10.6b887246.js"><link rel="prefetch" href="/assets/js/11.12e70fd0.js"><link rel="prefetch" href="/assets/js/12.018b37f5.js"><link rel="prefetch" href="/assets/js/13.aa923514.js"><link rel="prefetch" href="/assets/js/14.87e0d737.js"><link rel="prefetch" href="/assets/js/15.0331d014.js"><link rel="prefetch" href="/assets/js/16.6fa25b54.js"><link rel="prefetch" href="/assets/js/17.18867bb7.js"><link rel="prefetch" href="/assets/js/18.851d4e58.js"><link rel="prefetch" href="/assets/js/19.55be2200.js"><link rel="prefetch" href="/assets/js/21.ac4eb972.js"><link rel="prefetch" href="/assets/js/22.a484fa79.js"><link rel="prefetch" href="/assets/js/23.178887dd.js"><link rel="prefetch" href="/assets/js/24.b1008dd8.js"><link rel="prefetch" href="/assets/js/3.6f18974e.js"><link rel="prefetch" href="/assets/js/4.71ecd78b.js"><link rel="prefetch" href="/assets/js/5.fdd5ff66.js"><link rel="prefetch" href="/assets/js/6.c19db784.js"><link rel="prefetch" href="/assets/js/7.a8b99c3e.js"><link rel="prefetch" href="/assets/js/8.3b20b517.js"><link rel="prefetch" href="/assets/js/9.56e73294.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a74f58ad.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/03.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="About" class="dropdown-title"><span class="title">About</span> <span class="arrow down"></span></button> <button type="button" aria-label="About" class="mobile-dropdown-title"><span class="title">About</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/About/" class="nav-link">
+  About
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="More" class="dropdown-title"><span class="title">More</span> <span class="arrow down"></span></button> <button type="button" aria-label="More" class="mobile-dropdown-title"><span class="title">More</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/More/IDEA使用技巧/" class="nav-link">
+  IDEA使用技巧
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/后端/Mybatis/" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/后端/SpringBoot/" class="nav-link">
+  Spring Boot
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="About" class="dropdown-title"><span class="title">About</span> <span class="arrow down"></span></button> <button type="button" aria-label="About" class="mobile-dropdown-title"><span class="title">About</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/About/" class="nav-link">
+  About
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="More" class="dropdown-title"><span class="title">More</span> <span class="arrow down"></span></button> <button type="button" aria-label="More" class="mobile-dropdown-title"><span class="title">More</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/More/IDEA使用技巧/" class="nav-link">
+  IDEA使用技巧
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/后端/Mybatis/" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/后端/SpringBoot/" class="nav-link">
+  Spring Boot
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Spring</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/%E5%90%8E%E7%AB%AF/Spring/" aria-current="page" class="sidebar-link">Spring框架</a></li><li><a href="/后端/Spring/3.AOP.html" class="sidebar-link">3.AOP</a></li><li><a href="/后端/Spring/4.SpringMVC.html" class="active sidebar-link">4.SpringMVC</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/后端/Spring/4.SpringMVC.html#一般步骤" class="sidebar-link">一般步骤</a></li><li class="sidebar-sub-header"><a href="/后端/Spring/4.SpringMVC.html#流程" class="sidebar-link">流程</a></li></ul></li><li><a href="/后端/Spring/4.Transactional事务.html" class="sidebar-link">4.Transactional事务</a></li><li><a href="/后端/Spring/5.REST风格.html" class="sidebar-link">5.REST风格</a></li><li><a href="/后端/Spring/SpringBoot的核心注解.html" class="sidebar-link">SpringBoot的核心注解</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="springmvc"><a href="#springmvc" class="header-anchor">#</a> SpringMVC</h1> <blockquote><p>是表现层，轻量级web框架，相比于Servlet，开发更简单高效</p></blockquote> <h2 id="一般步骤"><a href="#一般步骤" class="header-anchor">#</a> 一般步骤</h2> <ol><li>导坐标</li></ol> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>javax.servlet<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>javax.servlet-api<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>3.1.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>scope</span><span class="token punctuation">&gt;</span></span>provided<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>scope</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>build</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugins</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugin</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.apache.tomcat.maven<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>tomcat7-maven-plugin<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>2.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>configuration</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>port</span><span class="token punctuation">&gt;</span></span>80<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>port</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span><span class="token punctuation">&gt;</span></span>/<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>path</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>configuration</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugin</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugins</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>build</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><ol start="2"><li>定义配置类ServletContainersInitConfig</li></ol> <blockquote><p>让其继承<strong>AbstractDispatcherServletInitializer</strong>，这样当tomcat启动的时候就会加载这个配置类</p></blockquote> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ServletContainersInitConfig</span> <span class="token keyword">extends</span> <span class="token class-name">AbstractDispatcherServletInitializer</span> <span class="token punctuation">{</span>
+    <span class="token comment">//加载springmvc配置类，产生springmvc容器（本质还是spring容器）</span>
+    <span class="token keyword">protected</span> <span class="token class-name">WebApplicationContext</span> <span class="token function">createServletApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//初始化WebApplicationContext对象</span>
+        <span class="token class-name">AnnotationConfigWebApplicationContext</span> ctx <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigWebApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//加载指定配置类</span>
+        ctx<span class="token punctuation">.</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token class-name">SpringMvcConfig</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> ctx<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">//设置由springmvc控制器处理的请求映射路径</span>
+    <span class="token keyword">protected</span> <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">getServletMappings</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token string">&quot;/&quot;</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">//加载spring配置类</span>
+    <span class="token keyword">protected</span> <span class="token class-name">WebApplicationContext</span> <span class="token function">createRootApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+一般用此方式
+<span class="token comment">//web配置类简化开发，仅设置配置类类名即可</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ServletContainersInitConfig</span> <span class="token keyword">extends</span> <span class="token class-name">AbstractAnnotationConfigDispatcherServletInitializer</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">protected</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">getRootConfigClasses</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Class</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token class-name">SpringConfig</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">protected</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">getServletConfigClasses</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Class</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token class-name">SpringMvcConfig</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">protected</span> <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">getServletMappings</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token string">&quot;/&quot;</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li>创建控制器类</li> <li>创建SpringMVC配置类</li></ol> <blockquote><div class="language- extra-class"><pre class="language-text"><code>本质上还是一个spring配置类，以便在加载配置类ServletContainersInitConfig
+</code></pre></div></blockquote> <h2 id="流程"><a href="#流程" class="header-anchor">#</a> 流程</h2> <p><img src="https://lsky-1305772907.cos.ap-nanjing.myqcloud.com/2022/07/15/4119d7f9f0f81.png" alt="image-20220715190820291"></p> <p><img src="https://lsky-1305772907.cos.ap-nanjing.myqcloud.com/2022/07/15/f72844ca47545.png" alt="image-20220715190906703"></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/后端/Spring/3.AOP.html" class="prev">
+        3.AOP
+      </a></span> <span class="next"><a href="/后端/Spring/4.Transactional事务.html">
+        4.Transactional事务
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.987a30c5.js" defer></script><script src="/assets/js/2.a0182257.js" defer></script><script src="/assets/js/20.5d493483.js" defer></script>
+  </body>
+</html>
